@@ -1,4 +1,4 @@
-lista = [5,4,35,67,2];
+lista = [5,5,5,5,2];
 numeros = 0;
 i = 0;
 for i in range(len(lista)):
