@@ -1,0 +1,44 @@
+1_con
+
+INICIO
+	leer contador
+	si contador < 50 y contador > 5 entonces:
+		Para i desde contador hastas 1 con paso -1 Hacer:
+			escribir i
+			espera de un 1 seg
+		FIN
+		escribir termino
+	sino:
+		escribir El número ingresado es demasiado grande para una cuenta regresiva segura.
+FIN
+
+2_Comparar_cantidades
+INICIO
+	tratar
+		leer num1
+		leer num2
+		si num1 == int o num2 == int entonces:
+			si num1 > num2 entonces:
+				escribir el numero num1 es mayor que num2
+			sinosi num2 > num1 entonces:
+					escribir el numero {num2} es mayor que {num1}
+			si no:
+				escribir los numeros son iguales
+	tratar (error)
+FIN
+
+3_¡Basta!
+INICIO
+	hola = ""
+	Dimensión array[]
+	mientras hola != "basta" entonces:
+		leer hola
+		hola la transformamos en minuscula
+		array[final] = hola
+		PARA CADA x EN array HACER:
+			escribir x,
+		FIN
+		escribir 
+	FIN
+	escribir ¡Has salido del bucle!
+FIN
