@@ -1,0 +1,13 @@
+1_con
+
+INICIO
+	leer contador
+	si contador < 50 y contador > 5 entonces:
+		Para i desde contador hastas 1 con paso -1 Hacer:
+			escribir i
+			espera de un 1 seg
+		FIN
+		escribir termino
+	sino:
+		escribir El número ingresado es demasiado grande para una cuenta regresiva segura.
+FIN
